@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+            box-sizing: border-box;
+        }
+
+       .row {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            padding-top: 10px;
+            text-align: left;
+         }
+         .btn {
+              padding: 10px;
+         }
+         .column{
+            padding: 1em;
+         }
+  </style>
+</head>
+<body>
+  <form action="georgeWelcomePage.php" method="post">
+    <div class="row" align="center">
+  
+          <div class="column left">
+              <label for="name">Name</label><br>
+              <input type="text" name="name"><br>
+              <label for="visiting">Visiting<br>
+              <input type="text" name="visiting"><br>
+          </div>
+  
+  
+          <div class="column right">
+              <label for="company">Company</label><br>
+              <input type="text" name="company"><br>
+              <label for="badge">Badge</label><br>
+              <input type="text" name="badge"><br>
+          </div>
+  
+      </div>
+  
+  
+      <div align="center">
+          <input class="sign-in-button" type="submit" value="Sign In">
+      </div>
+  
+  </form>
+</body>
+</html>
